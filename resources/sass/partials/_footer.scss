@@ -1,0 +1,73 @@
+/* FOOTER */
+    .footer-adjustments{
+        background-image: url("/img/footer-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .footer-alignments{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-nav{
+        display: flex;
+    }
+    .footer-box{
+        height: 380px;
+        padding-right: 1rem;
+        padding-top: 2rem;
+        color: white;
+    }
+    .dc-image{
+        width: 50%;
+        background-image: url("/img/dc-logo-bg.png");
+        background-repeat: no-repeat;
+        background-position-y: center;
+    }
+    .footer-nav h4{
+        font-size: 1.2rem;
+    }
+    .footer-nav ul{
+        margin-top: 0.5rem;
+    }
+    .footer-nav ul li{
+        margin-bottom: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .footer-nav ul li a{
+        text-decoration: none;
+        color: #959595;
+    }
+    /* LOWER FOOTER */
+    .lower-footer-adjustments{
+        background-color: #303030;
+    }
+    .lower-footer-alignments{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .big-button{
+        margin: 2rem 0;
+        border: 2px solid #0282f9;
+        background-color: #303030;
+        color: white;
+        padding: 15px 15px;
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .lower-footer-text{
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #0282f9;
+    }
+    .socials{
+        display: flex;
+        align-items: center;
+    }
+    .lower-footer-socials{
+        width: 300px;
+        margin-left: 1rem;
+    }
+    .lower-footer-socials img{
+        margin: 0 0.4rem;
+    }

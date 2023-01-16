@@ -1,0 +1,82 @@
+.upper-main-adjustments{
+    background-color: black;
+    color: white;
+}
+.upper-main-jumbotron{
+    background-image: url("/img/jumbotron.jpg");
+    height: 400px;
+}
+.comics-container{
+    padding-top: 3rem;
+    position: relative;
+}
+// COMICS CARDS SECTION
+.label{
+    display: inline-block;
+    padding: 0.7rem 1.3rem;
+    background-color: $brand_main_color;
+    position: absolute;
+    top: -30px;
+    left: 0;
+}
+.label span{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.button-adjustments{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0;
+}
+.button-adjustments span{
+    padding: 0.5rem 3rem;
+    background-color: $brand_main_color;
+    font-weight: bold;
+}
+ // COMICS
+.cards-container{
+    width: 97%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: calc(86% / 6);
+    height: calc(100% / 2);
+    margin-bottom: 3rem;
+}
+.card-image{
+    width: 100%;
+}
+.card-image img{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    aspect-ratio: 1;
+}
+.card-text{
+    height: 30%;
+    padding: 1rem 0;
+    color: white;
+}
+.lower-main-adjustments{
+    padding: 3rem 4rem;
+    background-color: $brand_main_color;
+    color: white;
+}
+.cards{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.blue-card-image{
+    display: inline-block;
+}
+.card-text{
+    margin-left: 10px;
+}
+.blue-card{
+    display: flex;
+    align-items: center;
+}
